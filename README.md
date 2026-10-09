@@ -21,3 +21,12 @@ Professional overview is based on owner-provided background. Portfolio framework
 Date | Page | Hypothesis | Baseline | Change | Observation period | Results | Limitations
 
 Do not commit private client data, credentials, or unpublished reports to this public repository.
+
+## Portfolio areas
+- /portfolio/seo-aeo-geo/ — SEO, AEO and GEO samples and search lab.
+- /portfolio/adam-v-photography/ — Adam V Photography gallery.
+- /portfolio/black-and-white/ — The Black & White Perspective gallery.
+
+These are separate pages under the current GitHub Pages hostname, not DNS subdomains. Actual subdomains require an owner-provided custom domain, Pages hosting configuration for each destination, and DNS records. No custom domain has been assumed or configured.
+
+Existing photography assets are curated selections, not a live Instagram feed. Gallery initialization runs after the data scripts and page markup are available.
