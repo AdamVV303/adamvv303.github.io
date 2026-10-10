@@ -6,3 +6,5 @@
 .photogrid figcaption{padding:10px 14px;font-size:13px;color:var(--muted)}
 
 .portfolio-nav{padding:24px 0;border-bottom:1px solid var(--line)}.portfolio-cards h2{font-size:29px}.portfolio-card{padding:24px}.portfolio-cover,.search-cover{width:100%;height:230px;margin-bottom:28px;overflow:hidden;background:var(--ink)}.portfolio-cover img{width:100%;height:100%;object-fit:cover}.search-cover{padding:24px;color:var(--paper);font:italic 35px/1.5 Georgia,serif}.search-cover em{color:var(--cream)}.portfolio-card .button{gap:8px}@media(prefers-reduced-motion:reduce){.photogrid img{transition:none}}
+
+.hero-art img{width:100%;height:100%;min-height:332px;object-fit:cover;display:block}
