@@ -33,3 +33,14 @@ dt{color:var(--cream)}
 .art-word{border-color:var(--brown)}
 @media(max-width:700px){.hero-art{box-shadow:8px 8px 0 var(--cream)}}
 @media print{.card,.callout,.note,.panel{background:white;color:black}.panel p{color:black}}
+
+/* Mobile hamburger navigation: below 700px the main nav hides behind a toggle button and drops down vertically. */
+.nav-toggle{display:none}
+@media(max-width:700px){
+header{position:relative;flex-direction:row;align-items:center}
+.nav-toggle{display:grid;place-items:center;width:44px;height:44px;flex:none;background:none;border:1px solid var(--ink);color:var(--ink);font-size:22px;line-height:1;cursor:pointer}
+header nav{display:none;position:absolute;top:100%;left:0;right:0;z-index:20;flex-direction:column;gap:0;background:var(--paper);border:1px solid var(--line);padding:8px 0}
+header nav.open{display:flex}
+header nav a{padding:14px 22px;font-size:14px}
+header nav a:hover,header nav a[aria-current]{box-shadow:none}
+}
